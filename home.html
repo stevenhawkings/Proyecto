@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado Libre Chafo Mejorado</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="home" id="homePage">
+    <button id="btnLogout" class="btn-logout">Cerrar sesión ⎋</button>
+    <h1>¡Bienvenido a Mercado Libre Chafo!</h1>
+    <button id="goToStore">Ir a la tienda</button>
+    <button id="goToOffers" class="btn-ofertas">Ver Ofertas 💥</button>
+  </section>
+
+ 
+  <div class="tienda" id="storePage">
+    <header>
+      <h1>Mercado Libre Chafo</h1>
+      <input id="busqueda" type="text" placeholder="Buscar producto..." />
+      <button id="btnRegresar" title="Regresar">⬅️</button>
+    </header>
+
+    <div id="mensajeBusqueda"></div>
+    <section id="productos"></section>
+
+    <aside id="carrito">
+      <h2>Carrito</h2>
+      <ul id="listaCarrito"></ul>
+      <p><strong>Total:</strong> $<span id="total">0</span></p>
+      <button onclick="comprar()">Comprar</button>
+    </aside>
+
+    <footer>© 2025 Mercado Libre Chafo</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

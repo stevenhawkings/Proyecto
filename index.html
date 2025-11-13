@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión | Mercado Libre Chafo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card">
+      <h1 class="logo">Mercado<span>Libre Chafo</span></h1>
+      <p class="subtitle">Inicia sesión para continuar</p>
+
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="email">Correo o usuario</label>
+          <input type="text" id="email" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Contraseña</label>
+          <div class="password-field">
+            <input type="password" id="password" placeholder="••••••••" required>
+            <button type="button" id="togglePassword">👁️</button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Ingresar</button>
+
+        <div class="options">
+          <label>
+            <input type="checkbox" id="remember"> Recuérdame
+          </label>
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+      </form>
+
+      <p class="register-text">
+        ¿No tienes cuenta? <a href="#">Crea una aquí</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

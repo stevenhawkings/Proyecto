@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas | Mercado Libre Chafo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔥 Ofertas Especiales - Mercado Libre Chafo 🔥</h1>
+    <button onclick="window.location.href='home.html'" class="btn-ofertas">⬅ Volver al inicio</button>
+  </header>
+
+  <div id="mensajeBusqueda"></div>
+  <section id="productos"></section>
+
+  <aside id="carrito">
+    <h2>Carrito</h2>
+    <ul id="listaCarrito"></ul>
+    <p><strong>Total:</strong> $<span id="total">0</span></p>
+    <button onclick="comprar()">Comprar</button>
+  </aside>
+
+  <footer>© 2025 Mercado Libre Chafo</footer>
+
+  <script src="script.js"></script>
+  <script>
+    const ofertas = productos.filter(p => p.oferta === true);
+    mostrarProductos(ofertas);
+  </script>
+</body>
+</html>
