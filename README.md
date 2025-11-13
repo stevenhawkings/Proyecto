@@ -16,7 +16,7 @@ El propósito es entender y aplicar conceptos de desarrollo web, bases de datos,
 ## Tecnologías utilizadas
 
 - Frontend: HTML, CSS, JavaScript (o frameworks como React/Vue)
-- Backend: Node.js, Express (o el stack de tu preferencia)
+- Backend: Node.js, Express
 - Base de datos: MongoDB / MySQL / PostgreSQL
 - Autenticación: JWT / OAuth
 
