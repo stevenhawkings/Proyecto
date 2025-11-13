@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo desarrollar un programa inspirado en la plataf
 
 El propósito es entender y aplicar conceptos de desarrollo web, bases de datos, diseño de interfaces y lógica de negocio en un entorno de comercio electrónico.
 
-> Este proyecto es de carácter educativo y no está afiliado ni asociado con Mercado Libre.
+> Este proyecto es de carácter educativo y no está afiliado ni asociado con Mercado Libre. 100% creado para un proyecto escolar.
 
 ## Tecnologías utilizadas
 
