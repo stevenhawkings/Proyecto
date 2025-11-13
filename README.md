@@ -1,4 +1,3 @@
-# Proyecto
 # Proyecto: Plataforma de Comercio Electrónico
 
 Este proyecto tiene como objetivo desarrollar un programa inspirado en la plataforma de Mercado Libre. La idea es replicar y adaptar algunas de sus funcionalidades clave, tales como:
