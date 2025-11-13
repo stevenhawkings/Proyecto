@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas | Mercado Libre Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔥 Ofertas Especiales - Mercado Libre Pro 🔥</h1>
+    <button onclick="volverATienda()" class="btn-ofertas">⬅ Volver a la tienda</button>
+  </header>
+
+  <div id="mensajeBusqueda"></div>
+  <section id="productos"></section>
+
+  <aside id="carrito">
+    <h2>Carrito</h2>
+    <ul id="listaCarrito"></ul>
+    <p><strong>Total:</strong> $<span id="total">0</span></p>
+    <button onclick="comprar()">Comprar</button>
+  </aside>
+
+  <footer>© 2025 Mercado Libre pro</footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Esperar a que el DOM esté listo
+    document.addEventListener('DOMContentLoaded', function() {
+      const ofertas = productos.filter(p => p.oferta === true);
+      mostrarProductos(ofertas);
+    });
+
+    function volverATienda() {
+      sessionStorage.setItem('mostrarStorePage', 'true');
+      window.location.href = 'home.html';
+    }
+  </script>
+</body>
+</html>
