@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo desarrollar un programa inspirado en la plataf
 - Publicación de productos con imágenes, descripciones y precios
 - Búsqueda y filtrado de productos por categorías
 - Carrito de compras y gestión de pedidos
-- Sistema de calificaciones y comentarios entre usuarios
+- Sistema de calificaciones 
 
 El propósito es entender y aplicar conceptos de desarrollo web, bases de datos, diseño de interfaces y lógica de negocio en un entorno de comercio electrónico.
 
